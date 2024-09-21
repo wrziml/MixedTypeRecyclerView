@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
             ListItem(ItemType.IMAGE, imageResId = R.drawable.ic_launcher_foreground),
             ListItem(ItemType.TEXT, text = "This is a text item"),
             ListItem(ItemType.TEXT, text = "This is a text item"),
+            ListItem(ItemType.TEXT_IMAGE, text = "Text with Image", imageResId = R.drawable.ic_launcher_foreground),
+            ListItem(ItemType.TEXT_IMAGE, text = "Text with Image", imageResId = R.drawable.ic_launcher_foreground),
             ListItem(ItemType.IMAGE, imageResId = R.drawable.ic_launcher_foreground),
             ListItem(ItemType.TEXT, text = "This is a text item"),
             ListItem(ItemType.IMAGE, imageResId = R.drawable.ic_launcher_foreground),
@@ -38,8 +40,6 @@ class MainActivity : AppCompatActivity() {
             ListItem(ItemType.TEXT_IMAGE, text = "Text with Image", imageResId = R.drawable.ic_launcher_foreground),
             ListItem(ItemType.TEXT, text = "Another text item"),
             ListItem(ItemType.IMAGE, imageResId = R.drawable.ic_launcher_foreground),
-            ListItem(ItemType.TEXT_IMAGE, text = "Text with Image", imageResId = R.drawable.ic_launcher_foreground),
-            ListItem(ItemType.TEXT_IMAGE, text = "Text with Image", imageResId = R.drawable.ic_launcher_foreground),
             ListItem(ItemType.TEXT_IMAGE, text = "Text with Image", imageResId = R.drawable.ic_launcher_foreground),
             ListItem(ItemType.TEXT_IMAGE, text = "Text with Image", imageResId = R.drawable.ic_launcher_foreground),
 
